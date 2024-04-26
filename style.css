@@ -96,3 +96,8 @@ h1 {
 .content img {
   max-height: 100%;
 }
+
+#personality-part-2 img {
+  width: 100%;
+  filter: grayscale(1);
+}

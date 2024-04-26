@@ -129,8 +129,8 @@ const questions = {
 // constant to store the description for each type of traveller
 const result = {
   Adventurous: [
-    "If you imagine yourself bungee jumping in New Zealand, running with the bulls in Pamplona, dancing until 6 in the morning in Berlin, heliskiing from the top of a mountain in Banff or boating down the Amazon, all signs point to you being an adventure traveler.",
-    "National Geographic has a list of the top adventure tour operators and outfitters worldwide that may be worth a look. Of course, you don't need to be a part of a tour to have an adventure, but if you're not sure what adventure travel means or if you just want an idea of what kind of companies operate tours and which ones to use, it's a great place to start.",
+    "<h1>Test</h1>",
+    "<img src='https://images.unsplash.com/photo-1534152410228-38e97861b36c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4dd25e2a5420abaf7b2d8df6c7ebe065&auto=format&fit=crop&w=1500&q=80' id='imageToSave'/>",
     "Recommended destinations for adventure travelers: New Zealand, Brazil, Bolivia, Nepal/Tibet, Tanzania, India.",
   ],
   Immersed: [
@@ -243,13 +243,11 @@ function next() {
 
     // get the description of the personality and update the result page
     var personalityResult = result[highestPersonality];
-    document.getElementById("personality-type").innerText =
-      highestPersonality + " Traveller";
-    document.getElementById("personality-part-1").innerText =
+    document.getElementById("personality-type").innerHTML =
       personalityResult[0];
-    document.getElementById("personality-part-2").innerText =
+    document.getElementById("personality-part-2").innerHTML =
       personalityResult[1];
-    document.getElementById("personality-recommended").innerText =
+    document.getElementById("personality-recommended").innerHTML =
       personalityResult[2];
     // set question count to 0 so that when the user wishes to retry, the quiz is on the right question count
     currentQn = 0;
@@ -267,4 +265,33 @@ function showPage(num) {
   pages[1].style.display = "none";
   pages[2].style.display = "none";
   pages[num].style.display = "block";
+}
+
+function saveImage() {
+  // var imgElement = document.getElementById("imageToSave");
+  // var imgSrc = imgElement.src;
+
+  // var link = document.createElement("a");
+  // link.href = imgSrc;
+  // link.download = "image.jpg"; // Set the desired file name here
+  // link.click();
+
+  var imgElement = document.getElementById("imageToSave");
+  var imgSrc = imgElement.src;
+
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", imgSrc, true);
+  xhr.responseType = "blob";
+  xhr.onload = function () {
+    var urlCreator = window.URL || window.webkitURL;
+    var imageUrl = urlCreator.createObjectURL(this.response);
+
+    var link = document.createElement("a");
+    link.href = imageUrl;
+    link.download = "image.jpg"; // Set the desired file name here
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+  xhr.send();
 }

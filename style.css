@@ -45,14 +45,7 @@ label {
   background-color: black;
 }
 
-/* .centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-} */
-
-.content {
+.centered {
   display: flex;
   justify-content: center;
   align-items: center;

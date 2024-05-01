@@ -2,6 +2,7 @@
 const questions = {
   question0: {
     question: "Which of these images appeal to you?",
+    Image: "asset/ticket.png",
     option0: {
       type: "string",
       content: "Bungee Jumping in New Zealand",
@@ -25,6 +26,7 @@ const questions = {
   },
   question1: {
     question: "Pick 1 item for your bucket list",
+    Image: "asset/ticket.png",
     option0: {
       type: "string",
       content: "Bungee Jumping in New Zealand",
@@ -48,6 +50,7 @@ const questions = {
   },
   question2: {
     question: "What do you never leave your house without?",
+    Image: "asset/cer.png",
     option0: {
       type: "string",
       content: "Sneakers",
@@ -72,6 +75,7 @@ const questions = {
   question3: {
     question:
       "You've arrived at your destination. What's the first thing you do?",
+    Image: "asset/cer.png",
     option0: {
       type: "string",
       content:
@@ -99,6 +103,7 @@ const questions = {
   question4: {
     question:
       "If you were to go on a first date, which activity would be your top pick?",
+    Image: "asset/cer.png",
     option0: {
       type: "string",
       content: "Checking out an escape room",

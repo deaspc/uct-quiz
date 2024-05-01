@@ -26,14 +26,16 @@
         <p id="personality-part-2"></p>
         <p id="personality-recommended"></p>
         <br />
-        <div class="centered">
-          <div class="button" onclick="showPage(0); setupQuestion();">
-            <p>RETRY</p>
+        <div class="btn">
+          <div class="centered">
+            <div class="button" onclick="showPage(0); setupQuestion();">
+              <p>RETRY</p>
+            </div>
           </div>
-        </div>
-        <div class="centered">
-          <div class="button" onclick="saveImage();">
-            <p>SAVE</p>
+          <div class="centered">
+            <div class="button" onclick="saveImage();">
+              <p>SAVE</p>
+            </div>
           </div>
         </div>
       </div>
@@ -41,9 +43,9 @@
         <div id="progress-bar">
           <div id="progress">1/5</div>
         </div>
-        <div id="question-container">
-          <h2 id="question"></h2>
-        </div>
+        <h2 id="question"></h2>
+        <img id="question-img" src="" alt="question" />
+
         <h2 id="question"></h2>
         <div class="option" id="option0" onclick="select(this)">
           <input type="radio" name="answer" value="0" onchange="next()" />

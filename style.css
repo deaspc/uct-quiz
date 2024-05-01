@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url("https://images.pexels.com/photos/297642/pexels-photo-297642.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("asset/bg4.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -41,15 +41,16 @@ p {
   width: 100vw;
 }
 
-.black-bg {
-  background-color: black;
-}
+/* .black-bg {
+  background-color: pink;
+} */
 
 .centered {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 20px;
 }
 
 .container {
@@ -65,12 +66,20 @@ p {
   display: none;
 }
 
+/* button */
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .button {
   cursor: pointer;
-  padding: 0px 20px;
+  margin: 30px;
   border: 2px solid cyan;
-  border-radius: 5px;
+  border-radius: 20px;
   text-align: center;
+  padding: 0px 20px;
   width: 100px;
 }
 
@@ -78,6 +87,7 @@ p {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+/* progress bar */
 #progress-bar {
   width: 100%;
   display: flex;
@@ -93,23 +103,30 @@ p {
   margin-bottom: 50px;
 }
 
+/* หน้าแรก */
 #questionaire-title {
   margin-top: 20vh;
   margin-bottom: 20vh;
   text-align: center;
 }
 
+/* question */
 #question {
   margin-bottom: 100px;
 }
 
+#question-img {
+  width: 100px;
+  height: 100px;
+}
+
+/* ans */
 .option {
   display: flex;
   align-items: center;
   text-align: center;
   height: 18%;
   margin-top: 20px;
-  background-color: black;
   border: 1px solid white;
   border-radius: 20px;
 }
@@ -123,12 +140,9 @@ p {
 }
 
 .content {
-  margin-left: 10px;
+  margin: 10px;
+  text-align: center;
   height: 100%;
-}
-
-.content img {
-  max-height: 100%;
 }
 
 #quiz-container {

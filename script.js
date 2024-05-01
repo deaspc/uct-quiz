@@ -1,151 +1,146 @@
 // constant to store all the questions and answers
 const questions = {
   question0: {
-    question: "Which of these images appeal to you?",
+    question: "The places you would choose to live?",
     image: "asset/ticket.png",
     option0: {
       type: "string",
-      content: "Bungee Jumping in New Zealand",
-      personality: "Adventurous",
+      content: "Deep under the sea",
+      personality: "Immortaljellyfish",
     },
     option1: {
       type: "string",
-      content: "Seeing the Louvre",
-      personality: "Intellectual",
+      content: "Where exciting things can happen all the time",
+      personality: "Vogelkop",
     },
     option2: {
       type: "string",
-      content: "Tasting your way through Italy",
-      personality: "Immersed",
+      content: "Anywhere on Earth",
+      personality: "Axolotol",
     },
     option3: {
       type: "string",
-      content: "Being serenaded whilst sitting in a gondola",
-      personality: "Dreamy",
+      content: "Just as long as there's warm sunlight",
+      personality: "Sunfish",
     },
   },
   question1: {
-    question: "Pick 1 item for your bucket list",
+    question: "If someone were to harm you, what would you do?",
     image: "asset/ticket.png",
     option0: {
       type: "string",
-      content: "Bungee Jumping in New Zealand",
-      personality: "Adventurous",
+      content: "Get hurt before realizing it",
+      personality: "Immortaljellyfish",
     },
     option1: {
       type: "string",
-      content: "Seeing the Louvre",
-      personality: "Intellectual",
+      content: "Try to escape according to instinct",
+      personality: "Vogelkop",
     },
     option2: {
       type: "string",
-      content: "Tasting your way through Italy",
-      personality: "Immersed",
+      content: "Not afraid, there's nothing that can harm me",
+      personality: "Axolotol",
     },
     option3: {
       type: "string",
-      content: "Being serenaded whilst sitting in a gondola",
-      personality: "Dreamy",
+      content: "want to escape, but the body won't move as desired",
+      personality: "Sunfish",
     },
   },
   question2: {
-    question: "What do you never leave your house without?",
+    question: "Are you usually good at approaching others?",
     image: "asset/cer.png",
     option0: {
       type: "string",
-      content: "Sneakers",
-      personality: "Adventurous",
+      content: "Approaching others when the situation leads",
+      personality: "Immortaljellyfish",
     },
     option1: {
       type: "string",
-      content: "Earphones and a charger",
-      personality: "Dreamy",
+      content: "People come to me all the time",
+      personality: "Sunfish",
     },
     option2: {
       type: "string",
-      content: "A book",
-      personality: "Intellectual",
+      content: "Extremely skilled",
+      personality: "Vogelkop",
     },
     option3: {
       type: "string",
-      content: "A camera",
-      personality: "Immersed",
+      content: "Able to approach others, anything is fine",
+      personality: "Axolotol",
     },
   },
   question3: {
-    question:
-      "You've arrived at your destination. What's the first thing you do?",
+    question: "Which extraordinary powers you desire?",
     image: "asset/cer.png",
     option0: {
       type: "string",
-      content:
-        "Take public transportation into the city. It's the cheapest city tour possible!",
-      personality: "Immersed",
+      content: "Healing factor",
+      personality: "Axolotol",
     },
     option1: {
       type: "string",
-      content:
-        "Stop by the oldest bookstore in the city on the way to the hotel.",
-      personality: "Intellectual",
+      content: "Charisma, captivating anyone who sees",
+      personality: "Vogelkop",
     },
     option2: {
       type: "string",
-      content: "Head for the hotel spa and then enjoy the view from my room",
-      personality: "Dreamy",
+      content: "High endurance body",
+      personality: "Sunfish",
     },
     option3: {
       type: "string",
-      content:
-        "Dump my bags and find some physical activity that will get my adrenaline pumping. Best way to shake off the jet lag.",
-      personality: "Adventurous",
+      content: "Eternal life",
+      personality: "Immortaljellyfish",
     },
   },
   question4: {
-    question:
-      "If you were to go on a first date, which activity would be your top pick?",
+    question: "Which sentence do you like the most?",
     image: "asset/cer.png",
     option0: {
       type: "string",
-      content: "Checking out an escape room",
-      personality: "Adventurous",
+      content: "If it's not a big deal, everything can be fixed.",
+      personality: "Immortaljellyfish",
     },
     option1: {
       type: "string",
-      content: "Going to the museum",
-      personality: "Intellectual",
+      content: "When the time is right, I'll get started right away",
+      personality: "Vogelkop",
     },
     option2: {
       type: "string",
-      content: "Taking a walk through central park",
-      personality: "Dreamy",
+      content: "When you can't do something, just let it go.",
+      personality: "Sunfish",
     },
     option3: {
       type: "string",
-      content: "Hitting the flea market",
-      personality: "Immersed",
+      content: "No matter what happens, I can move forward",
+      personality: "Axolotol",
     },
   },
 };
 
 // constant to store the description for each type of traveller
 const result = {
-  Adventurous: [
-    "<h1>Test</h1>",
+  Immortaljellyfish: [
+    "<h1>Immortal jellyfish</h1>",
     "<img src='asset/cer.png' id='imageToSave'/>",
     "Here is your result",
   ],
-  Immersed: [
-    "<h1>Test2</h1>",
+  Axolotol: [
+    "<h1>Axolotol</h1>",
     "<img src='asset/cer.png' id='imageToSave'/>",
     "Here is your result",
   ],
-  Intellectual: [
-    "<h1>Test3</h1>",
+  Vogelkop: [
+    "<h1>Vogelkop superb bird-of-paradise</h1>",
     "<img src='asset/cer.png' id='imageToSave'/>",
     "Here is your result",
   ],
-  Dreamy: [
-    "<h1>Test4</h1>",
+  Sunfish: [
+    "<h1>Sunfish</h1>",
     "<img src='asset/cer.png' id='imageToSave'/>",
     "Here is your result",
   ],
@@ -153,10 +148,10 @@ const result = {
 
 // for keeping track of the score
 var score = {
-  Adventurous: 0,
-  Immersed: 0,
-  Intellectual: 0,
-  Dreamy: 0,
+  Immortaljellyfish: 0,
+  Axolotol: 0,
+  Vogelkop: 0,
+  Sunfish: 0,
 };
 
 // for keep track of the current question
@@ -227,21 +222,21 @@ function next() {
     setupQuestion();
   } else {
     // else quiz is completed
-    // assume that the highest score is the adventurous personality
+    // assume that the highest score is the Immortaljellyfish personality
     // and go through each of the personality type, and update the highest score and personality
-    var highestScore = score["Adventurous"];
-    var highestPersonality = "Adventurous";
-    if (highestScore < score["Intellectual"]) {
-      highestScore = score["Intellectual"];
-      highestPersonality = "Intellectual";
+    var highestScore = score["Immortaljellyfish"];
+    var highestPersonality = "Immortaljellyfish";
+    if (highestScore < score["Vogelkop"]) {
+      highestScore = score["Vogelkop"];
+      highestPersonality = "Vogelkop";
     }
-    if (highestScore < score["Immersed"]) {
-      highestScore = score["Immersed"];
-      highestPersonality = "Immersed";
+    if (highestScore < score["Axolotol"]) {
+      highestScore = score["Axolotol"];
+      highestPersonality = "Axolotol";
     }
-    if (highestScore < score["Dreamy"]) {
-      highestScore = score["Dreamy"];
-      highestPersonality = "Dreamy";
+    if (highestScore < score["Sunfish"]) {
+      highestScore = score["Sunfish"];
+      highestPersonality = "Sunfish";
     }
 
     // get the description of the personality and update the result page

@@ -9,25 +9,29 @@ body {
 h1 {
   font-family: "Montserrat", sans-serif;
   color: white;
-  font-size: clamp(40px, 2.5vw, 48px);
+  font-size: 40px;
+  font-weight: 600;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(36px, 2.5vw, 40px);
+  font-size: 36px;
   color: white;
+  font-weight: 600;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(30px, 2.5vw, 36px);
+  font-size: 28px;
   color: white;
+  font-weight: 600;
 }
 
 #progress-bar #progress {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(18px, 2.5vw, 20px);
+  font-size: 18px;
   color: white;
+  font-weight: 400;
 }
 
 /* label {
@@ -74,14 +78,15 @@ p {
 }
 
 .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   margin: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
   border: 2px solid white;
   border-radius: 20px;
-  text-align: center;
-  padding: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
   width: 100px;
 }
 
@@ -125,6 +130,7 @@ p {
 /* ans */
 .option {
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   height: 18%;

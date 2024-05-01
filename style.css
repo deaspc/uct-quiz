@@ -100,21 +100,25 @@ p {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 #progress {
   width: 20%;
   text-align: right;
-  border-bottom: 6px solid cyan;
+  border-bottom: 6px solid white;
   margin-bottom: 50px;
 }
 
 /* หน้าแรก */
 #questionaire-title {
-  margin-top: 20vh;
-  margin-bottom: 20vh;
+  margin-top: 100px;
+  margin-bottom: 50px;
   text-align: center;
+}
+
+#title-img {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 /* question */
@@ -123,7 +127,6 @@ p {
 }
 
 #question-img {
-  width: 100%;
   margin-bottom: 100px;
 }
 
@@ -150,7 +153,15 @@ p {
 
 /* result */
 #personality-type {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+}
+
+#personality-part-2 {
+  margin-bottom: 70px;
+}
+
+#personality-recommended {
+  margin-bottom: 70px;
 }
 
 .content {

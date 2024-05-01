@@ -2,28 +2,25 @@
 const questions = {
   question0: {
     question: "Which of these images appeal to you?",
+    image: "asset/cer.png",
     option0: {
-      type: "image",
-      content:
-        "https://images.unsplash.com/photo-1534152410228-38e97861b36c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4dd25e2a5420abaf7b2d8df6c7ebe065&auto=format&fit=crop&w=1500&q=80",
+      type: "string",
+      content: "Bungee Jumping in New Zealand",
       personality: "Adventurous",
     },
     option1: {
-      type: "image",
-      content:
-        "https://images.unsplash.com/photo-1524014444623-194fde519952?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=50a0bf5cb937121cd79cef6b1f22421e&auto=format&fit=crop&w=750&q=80",
+      type: "string",
+      content: "Seeing the Louvre",
       personality: "Intellectual",
     },
     option2: {
-      type: "image",
-      content:
-        "https://images.unsplash.com/photo-1517226830096-935b8186475c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5344831319a6b8ce74fafc97fd8f5a4f&auto=format&fit=crop&w=752&q=80",
+      type: "string",
+      content: "Tasting your way through Italy",
       personality: "Immersed",
     },
     option3: {
-      type: "image",
-      content:
-        "https://images.unsplash.com/photo-1533557950217-8768f2ee7491?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=397bf529b8e82111623d4580174c8d6d&auto=format&fit=crop&w=1050&q=80",
+      type: "string",
+      content: "Being serenaded whilst sitting in a gondola",
       personality: "Dreamy",
     },
   },
@@ -130,23 +127,21 @@ const questions = {
 const result = {
   Adventurous: [
     "<h1>Test</h1>",
-    "<img src='https://images.unsplash.com/photo-1534152410228-38e97861b36c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4dd25e2a5420abaf7b2d8df6c7ebe065&auto=format&fit=crop&w=1500&q=80' id='imageToSave'/>",
-    "Recommended destinations for adventure travelers: New Zealand, Brazil, Bolivia, Nepal/Tibet, Tanzania, India.",
+    "<img src='asset/cer.png' id='imageToSave'/>",
+    "Here is your result",
   ],
   Immersed: [
-    "If your travel dreams are populated by the perfect sunset on a secluded beach in the Seychelles, gondola rides in Venice, and catching falling Sakura flowers, this is probably you.",
-    "Travel can be an amazing way to inspire creativity and connect with your inner muse! Check out Travel and Leisure's list of the 50 most dreamy places for a general idea of what's out there in the way of romantic destinations. The notion of taking off to far-flung places is a dream come through in itself, so grab your passports, and get out and see the world.",
-    "Recommended spots for dreamy travelers: Santorini, Venice, Paris, Buenos Aires, Goa, Bali, Phuket, Fiji, Tahiti.",
+    "<h1>Test2</h1>",
+    "<img src='https://images.unsplash.com/photo-1534152410228-38e97861b36c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4dd25e2a5420abaf7b2d8df6c7ebe065&auto=format&fit=crop&w=1500&q=80' id='imageToSave'/>",
+    "Here is your result",
   ],
   Intellectual: [
-    "If travel is just another way you broaden your internal encyclopedia with art, culture, and history, and your dream itinerary includes days filled with museums, archeological sites, groundbreaking architecture and traditional experiences, you may be an intellectual traveler.",
-    "Lucky for you, destinations all over the world cater to the student inside of all of us. The world's full of lessons, and travel is the way to learn them.",
-    "Recommended regions for intellectual travelers: Europe, India, Japan, Machu Picchu, Istanbul, Cairo.",
+    "<h1>Test3</h1>",
+    "<img src='https://images.unsplash.com/photo-1534152410228-38e97861b36c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4dd25e2a5420abaf7b2d8df6c7ebe065&auto=format&fit=crop&w=1500&q=80' id='imageToSave'/>",
   ],
   Dreamy: [
-    "If your travel dreams are populated by the perfect sunset on a secluded beach in the Seychelles, gondola rides in Venice, and catching falling Sakura flowers, this is probably you.",
-    "Travel can be an amazing way to inspire creativity and connect with your inner muse! Check out Travel and Leisure's list of the 50 most dreamy places for a general idea of what's out there in the way of romantic destinations. The notion of taking off to far-flung places is a dream come through in itself, so grab your passports, and get out and see the world.",
-    "Recommended spots for dreamy travelers: Santorini, Venice, Paris, Buenos Aires, Goa, Bali, Phuket, Fiji, Tahiti.",
+    "<h1>Test4</h1>",
+    "<img src='https://images.unsplash.com/photo-1534152410228-38e97861b36c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4dd25e2a5420abaf7b2d8df6c7ebe065&auto=format&fit=crop&w=1500&q=80' id='imageToSave'/>",
   ],
 };
 

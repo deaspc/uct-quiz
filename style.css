@@ -26,13 +26,13 @@ p {
 
 #progress-bar #progress {
   font-family: "Montserrat", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   color: red;
 }
 
 label {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 30px;
   color: red;
 }
 
@@ -124,6 +124,18 @@ label {
 
 .content img {
   max-height: 100%;
+}
+
+#quiz-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#question-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 #personality-part-2 img {

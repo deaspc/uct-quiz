@@ -6,14 +6,34 @@ body {
   background-position: center;
 }
 
-h2,
-#progress-bar #progress,
-label,
-p,
 h1 {
-  font-family: "arial";
+  font-family: "Montserrat", sans-serif;
   color: red;
   font-size: 48px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: red;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: red;
+}
+
+#progress-bar #progress {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: red;
+}
+
+label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: red;
 }
 
 .fullpage {

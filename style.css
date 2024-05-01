@@ -14,19 +14,19 @@ h1 {
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(28px, 2.5vw, 30px);
+  font-size: clamp(36px, 2.5vw, 40px);
   color: white;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(24px, 2.5vw, 28px);
+  font-size: clamp(30px, 2.5vw, 36px);
   color: white;
 }
 
 #progress-bar #progress {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(16px, 2.5vw, 18px);
+  font-size: clamp(18px, 2.5vw, 20px);
   color: white;
 }
 

@@ -85,8 +85,8 @@ h1 {
   height: 18%;
   margin-top: 10px;
   padding: 5px;
-  color: red;
   background-color: black;
+  font-size: 20px;
 }
 
 .option:hover {

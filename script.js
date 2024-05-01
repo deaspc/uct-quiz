@@ -132,17 +132,17 @@ const result = {
   ],
   Immersed: [
     "<h1>Test2</h1>",
-    "<img src='https://images.unsplash.com/photo-1534152410228-38e97861b36c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4dd25e2a5420abaf7b2d8df6c7ebe065&auto=format&fit=crop&w=1500&q=80' id='imageToSave'/>",
+    "<img src='asset/cer.png' id='imageToSave'/>",
     "Here is your result",
   ],
   Intellectual: [
     "<h1>Test3</h1>",
-    "<img src='https://images.unsplash.com/photo-1534152410228-38e97861b36c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4dd25e2a5420abaf7b2d8df6c7ebe065&auto=format&fit=crop&w=1500&q=80' id='imageToSave'/>",
+    "<img src='asset/cer.png' id='imageToSave'/>",
     "Here is your result",
   ],
   Dreamy: [
     "<h1>Test4</h1>",
-    "<img src='https://images.unsplash.com/photo-1534152410228-38e97861b36c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4dd25e2a5420abaf7b2d8df6c7ebe065&auto=format&fit=crop&w=1500&q=80' id='imageToSave'/>",
+    "<img src='asset/cer.png' id='imageToSave'/>",
     "Here is your result",
   ],
 };

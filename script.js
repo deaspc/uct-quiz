@@ -2,7 +2,6 @@
 const questions = {
   question0: {
     question: "Which of these images appeal to you?",
-    image: "asset/cer.png",
     option0: {
       type: "string",
       content: "Bungee Jumping in New Zealand",

@@ -9,24 +9,24 @@ body {
 h1 {
   font-family: "Montserrat", sans-serif;
   color: white;
-  font-size: 48px;
+  font-size: clamp(36px, 2.5vw, 48px);
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: clamp(24px, 2.5vw, 30px);
   color: white;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: clamp(20px, 2.5vw, 24px);
   color: white;
 }
 
 #progress-bar #progress {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: clamp(12px, 2.5vw, 16px);
   color: white;
 }
 
@@ -76,10 +76,12 @@ p {
 .button {
   cursor: pointer;
   margin: 30px;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 20px;
   text-align: center;
-  padding: 0px 20px;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
   width: 100px;
 }
 
@@ -137,6 +139,11 @@ p {
 
 .option input {
   opacity: 0;
+}
+
+/* result */
+#personality-type {
+  margin-bottom: 50px;
 }
 
 .content {

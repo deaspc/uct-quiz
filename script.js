@@ -126,22 +126,22 @@ const questions = {
 const result = {
   Immortaljellyfish: [
     "<h1>Immortal jellyfish</h1>",
-    "<img src='asset/cer.png' id='imageToSave'/>",
+    "<img src='asset/resultjellyfish.png' id='imageToSave'/>",
     "Here is your result",
   ],
   Axolotol: [
     "<h1>Axolotol</h1>",
-    "<img src='asset/cer.png' id='imageToSave'/>",
+    "<img src='asset/resultaxo.png' id='imageToSave'/>",
     "Here is your result",
   ],
   Vogelkop: [
     "<h1>Vogelkop superb bird-of-paradise</h1>",
-    "<img src='asset/cer.png' id='imageToSave'/>",
+    "<img src='asset/resultbird.png' id='imageToSave'/>",
     "Here is your result",
   ],
   Sunfish: [
     "<h1>Sunfish</h1>",
-    "<img src='asset/cer.png' id='imageToSave'/>",
+    "<img src='asset/resultfish.png' id='imageToSave'/>",
     "Here is your result",
   ],
 };

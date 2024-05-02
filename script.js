@@ -169,8 +169,6 @@ function setupQuestion() {
   var qn = questions["question" + currentQn];
   var qnText = document.getElementById("question");
   qnText.innerText = qn.question;
-  var imgElement = document.getElementById("question-img");
-  imgElement.src = qn.image;
 
   // updates each of the options for the current question
   for (var i = 0; i < 4; i++) {
